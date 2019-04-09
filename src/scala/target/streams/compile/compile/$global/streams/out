@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/bjit-541/practiceProjects/SparkScala/PopularMoviesDataframe.scala:14:82: overloaded method value sort with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (sortExprs: org.apache.spark.sql.Column*)org.apache.spark.sql.Dataset[org.apache.spark.sql.Row] <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (sortCol: String,sortCols: String*)org.apache.spark.sql.Dataset[org.apache.spark.sql.Row][0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Boolean)[0m
+[0m[[0m[31merror[0m] [0m[0m    var countedMovies = schemaMovies.groupBy("movieID").count().orderBy("count").sort(false).cache()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
